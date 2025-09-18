@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Axiy13 — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'accent': '#22c55e', // Axiy13 yashil
+            'accent-2': '#06b6d4',
+            'accent-3': '#8b5cf6'
+          },
+          fontFamily: {
+            sans: ['Poppins', 'ui-sans-serif', 'system-ui']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+  <style>
+    /* Hover glow effect */
+    .hover-glow {
+      transition: all 0.4s ease;
+    }
+    .hover-glow:hover {
+      transform: scale(1.05);
+      background: linear-gradient(to right, #16a34a, #22c55e);
+      color: white !important;
+      box-shadow: 0 0 20px rgba(34,197,94,0.6);
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-purple-900 to-black text-gray-200 font-sans">
+
+  <!-- HERO SECTION -->
+  <section class="w-full max-w-6xl mx-auto rounded-3xl p-8 relative overflow-hidden shadow-2xl border border-white/5 bg-gradient-to-b from-black/30 to-black/10">
+
+    <!-- NAVBAR -->
+    <nav class="flex justify-between items-center mb-6">
+      <!-- LEFT LOGO -->
+      <div class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-full overflow-hidden profile-ring">
+  <img src="https://i.pinimg.com/736x/28/29/99/282999de7492b244c2e1233909e2a226.jpg" 
+       alt="Axiy13 Logo" 
+       class="w-full h-full object-cover" />
+</div>
+        <div>
+          <div class="text-sm font-semibold text-transparent bg-clip-text bg-gradient-to-r from-accent to-accent-2">Ahmad</div>
+          <div class="text-xs text-gray-300">Axiy13 — UI/UX & No-code</div>
+        </div>
+      </div>
+
+      <!-- RIGHT SOCIAL ICONS -->
+      <div class="flex gap-5 items-center text-gray-400">
+        <a href="#" class="hover:text-accent transition"><i data-lucide="send"></i></a>
+        <a href="#" class="hover:text-accent transition"><i data-lucide="instagram"></i></a>
+        <a href="#" class="hover:text-accent transition"><i data-lucide="github"></i></a>
+        <a href="#" class="hover:text-accent transition"><i data-lucide="layout"></i></a>
+      </div>
+    </nav>
+
+    <!-- MAIN GRID -->
+    <div class="grid grid-cols-12 gap-8 items-center">
+      <!-- LEFT -->
+      <div class="col-span-7">
+        <p class="text-sm uppercase tracking-wider text-accent font-medium mb-4">UI / UX Designer • No-code • Web Developer</p>
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+          Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-accent-2">Ahmad</span>
+          <span class="block text-accent mt-2">Axiy13</span>
+        </h1>
+        <p class="text-gray-400 max-w-2xl mt-4">
+          Passionate UI/UX designer and web developer focused on modern interfaces and no-code workflows.
+          I craft interactive, conversion-focused components and polished micro-interactions that feel premium.
+        </p>
+        <div class="mt-8 flex gap-4 items-center">
+          <button id="viewWork" class="px-5 py-3 rounded-lg bg-gradient-to-r from-cyan-900 to-blue-500 text-white font-semibold shadow-lg hover-glow">
+            View Work
+          </button>
+         <a href="mailto:akhmadkhurozov@gmail.com?subject=Hello%20Axiy13&body=Hi%20Ahmad,"
+   class="px-5 py-3 rounded-full border border-accent/30 text-gray-200 font-medium 
+          shadow-lg bg-gradient-to-r from-accent to-accent-2 
+          transition duration-700 hover:scale-110 hover:from-green-400 hover:to-green-900 hover:text-white">
+  Say Hello
+</a>
+ 
+  </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="col-span-5 relative">
+        <div class="rounded-2xl overflow-hidden border border-white/5 p-4 bg-gradient-to-br from-black/50 to-black/30">
+          <div class="w-full h-96 rounded-xl bg-gradient-to-tr from-accent/8 to-accent-2/8 flex items-center justify-center relative">
+            <img src="https://i.pinimg.com/736x/dd/5a/55/dd5a55501ca5850f5bbe412983c06120.jpg" alt="3D Avatar"class="w-72 h-72 md:w-96 md:h-96 object-cover rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-700"
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKS SECTION -->
+  <section id="works" class="max-w-6xl mx-auto mt-20 p-8">
+    <h2 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-accent to-accent-2 mb-10">
+                
+My Works
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- 6 project cards -->
+      <div class="bg-gradient-to-br from-orange-650 to-orange-900 rounded-2xl overflow-hidden shadow-xl hover:scale-105 transition">
+        <img src="https://i.pinimg.com/736x/f3/89/2f/f3892f8a7582f3bd5b5a253b8218bfe9.jpg" class="w-full h-48 object-cover" alt="Template 1">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Landing Page</h3>
+          <p class="text-gray-400 text-sm">Modern responsive landing page.</p>
+        </div>
+      </div>
+      <div class="bg-gradient-to-br from-sky-650 to-sky-900 rounded-2xl overflow-hidden shadow-xl hover:scale-105 transition">
+        <img src="https://i.pinimg.com/1200x/c2/e4/2b/c2e42b097bec46775c22a4ca4a40309b.jpg" class="w-full h-48 object-cover" alt="Component">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">UI Components</h3>
+          <p class="text-gray-400 text-sm">Interactive ready-to-use elements.</p>
+        </div>
+      </div>
+      <div class="bg-gradient-to-br from-orange-650 to-orange-900 rounded-2xl overflow-hidden shadow-xl hover:scale-105 transition">
+        <img src="https://i.pinimg.com/1200x/9b/23/a3/9b23a35b3bc844e8cfb6370b3ae46427.jpg" class="w-full h-105 object-cover" alt="Website">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Website Project</h3>
+          <p class="text-gray-400 text-sm">Full modern website with animations.</p>
+        </div>
+      </div>
+      <div class="bg-gradient-to-br from-orange-650 to-orange-950 rounded-2xl overflow-hidden shadow-xl hover:scale-105 transition">
+        <img src="https://i.pinimg.com/736x/7c/38/81/7c388169759f716b21b805b2c06791ef.jpg" class="w-full h-48 object-cover" alt="Template 2">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Portfolio Design</h3>
+          <p class="text-gray-400 text-sm">Clean and creative portfolio template.</p>
+        </div>
+      </div>
+      <div class="bg-gradient-to-br from-gray-650 to-gray-950 rounded-2xl overflow-hidden shadow-xl hover:scale-105 transition">
+        <img src="https://i.pinimg.com/736x/e7/36/98/e736985ca5866896d4d820375293f2e8.jpg" class="w-full h-48 object-cover" alt="Mobile App">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Mobile App UI</h3>
+          <p class="text-gray-400 text-sm">Engaging mobile-first interfaces.</p>
+        </div>
+      </div> 
+      <div class="bg-gradient-to-br from-gray-650 to-gray-950 rounded-2xl overflow-hidden shadow-xl hover:scale-105 transition">
+        <img src="https://i.pinimg.com/736x/56/35/ea/5635eac50b74d405d0104c6013be978f.jpg" class="w-full h-48 object-cover" alt="Dev Tools">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Dev Tools</h3>
+          <p class="text-gray-400 text-sm">Handy no-code developer resources.</p>
+        </div>
+      </div> 
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="max-w-6xl mx-auto mt-20 py-6 border-t border-white/10 text-center text-gray-500 text-sm">
+    © 2025 Axiy13. Crafted with ❤️ using HTML, TailwindCSS, and passion.
+  </footer>
+
+  <!-- JS -->
+  <script>
+    // lucide icons init
+    lucide.createIcons();
+
+    // scroll to works
+    document.getElementById('viewWork').addEventListener('click', () => {
+      document.getElementById('works').scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
